@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import petalsTexturePng01 from "./public/01.png";
 import petalsTexturePng02 from "./public/02.png";
-import bgTexturePng09 from "./public/bg09.png";
+//import bgTexturePng09 from "./public/bg09.png";
 
 //canvas
 const canvas = document.querySelector("#webgl");
@@ -30,9 +30,9 @@ renderer.setPixelRatio(window.devicePixelRatio);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enableZoom = false;
-const bgLoader = new THREE.TextureLoader();
+/*const bgLoader = new THREE.TextureLoader();
 const bgimage = bgLoader.load(bgTexturePng09);
-scene.background = bgimage;
+scene.background = bgimage;*/
 /**
  * particles ↓↓
  */

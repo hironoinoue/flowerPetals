@@ -22,7 +22,7 @@ camera.rotation.x = Math.PI * 0.5;
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
   antialias: true,
-  alpha: ture,
+  alpha: true,
 });
 renderer.setSize(sizes.width, sizes.height);
 //renderer.setClearColor(0xd9e9ec, 1);

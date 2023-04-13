@@ -22,6 +22,7 @@ camera.rotation.x = Math.PI * 0.5;
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
   antialias: true,
+  alpha: ture,
 });
 renderer.setSize(sizes.width, sizes.height);
 //renderer.setClearColor(0xd9e9ec, 1);
@@ -30,9 +31,6 @@ renderer.setPixelRatio(window.devicePixelRatio);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enableZoom = false;
-/*const bgLoader = new THREE.TextureLoader();
-const bgimage = bgLoader.load(bgTexturePng09);
-scene.background = bgimage;*/
 /**
  * particles ↓↓
  */

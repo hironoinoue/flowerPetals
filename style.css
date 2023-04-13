@@ -6,4 +6,7 @@ body {
   top: 0;
   left: 0;
   outline: none;
+  background-image: url("./public/bg09.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
